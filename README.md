@@ -3,7 +3,7 @@ application program interface which takes coordinates of source object and desti
 from user as input as well as the obstacles between them. The program consists of 48 X 48 boxes
 created by G.U.I ,the coordinates range from (1,1) to (48,48).The source and detination can only have
 coordinates in this range. The obstacles can also have the coordinates in this range. The program finds
-the shortest path using back tracing algorithm in terms of block.
+the shortest path using A* search algorithm in terms of block.
 
 The program should be executed in Pycharm for easiness.
 The interpreter should be Project default(Python 3.7)
